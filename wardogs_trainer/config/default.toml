@@ -1,0 +1,22 @@
+[game]
+process_name = "WARDOGS.exe"
+offsets_file = "config/offsets.json"
+
+[runtime]
+tick_ms = 50
+
+[features.godmode]
+enabled = true
+
+[features.infinite_ammo]
+enabled = true
+
+[features.esp]
+enabled = false
+draw_distance = 350.0
+
+[features.aimbot]
+enabled = false
+fov = 12.0
+smoothing = 3.0
+bone = "head"
