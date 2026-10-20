@@ -1,0 +1,21 @@
+[project]
+name = "wardogs-trainer"
+version = "1.4.2"
+description = "External trainer for WARDOGS - single-player cheat toolkit"
+requires-python = ">=3.10"
+authors = [{name = "wardogs-trainer contributors"}]
+dependencies = [
+    "pymem>=1.11.1",
+    "pywin32>=306",
+    "pydivert>=2.0.5",
+    "requests>=2.31.0",
+    "tomli>=2.0.1",
+    "rich>=13.7.0",
+]
+
+[project.scripts]
+wardogs-trainer = "wardogs_trainer.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
