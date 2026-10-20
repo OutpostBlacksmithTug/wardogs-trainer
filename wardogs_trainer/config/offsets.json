@@ -1,0 +1,14 @@
+{
+  "build": "1.0.7-STEAM",
+  "player_base": "0x02A4F1C0",
+  "health": "0x1A4",
+  "armor": "0x1A8",
+  "ammo_primary": "0x2B0",
+  "ammo_reserve": "0x2B4",
+  "position": "0x60",
+  "view_angles": "0x2E0",
+  "entity_list": "0x1F00",
+  "entity_size": "0x2A0",
+  "entity_health": "0xA8",
+  "entity_bone_head": "0x1440"
+}
