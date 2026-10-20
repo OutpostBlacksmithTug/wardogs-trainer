@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# venv
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Runtime artifacts
+logs/
+*.log
+memory_dumps/
+process_dumps/
+config/local.toml
+
+# Trainer-specific
+cheats_local.json
+offsets_cache.bin
